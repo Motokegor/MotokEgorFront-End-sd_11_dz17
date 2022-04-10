@@ -1,0 +1,2041 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-image: url(../images/Главный-экран\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 940px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 120px;
+}
+.img_nav {
+  margin-top: 13px;
+}
+.link {
+  display: flex;
+  color: white;
+}
+.link_3 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.p_nav {
+  font-size: 20px;
+  line-height: 26px;
+  width: 210px;
+  height: 27px;
+}
+.link_2 {
+  display: flex;
+}
+.img_link {
+  margin-top: 28px;
+  width: 24px;
+  height: 24px;
+}
+.p_link {
+  width: 142px;
+  height: 23px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 28px;
+  margin-left: 13px;
+}
+.img_link_2 {
+  width: 24px;
+  height: 24px;
+  margin-top: 28px;
+  margin-left: 33px;
+}
+.p_email {
+  width: 180px;
+  height: 23px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 28px;
+  margin-left: 12px;
+}
+.button_link {
+  margin-top: 18px;
+  margin-left: 45px;
+  width: 186px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 22px;
+  background: none;
+}
+.a_button {
+  width: 174px;
+  height: 14px;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 18px;
+  text-decoration: none;
+}
+.link_4 {
+  border-bottom: 1px solid #d9d9de;
+  background: #c4c4c4;
+  opacity: 0.3;
+  height: 0px;
+  margin-top: 14px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.a_ul {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  margin-right: 32px;
+}
+.a_ul_2 {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.a_ul_3 {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  margin-right: 32px;
+}
+ul {
+  display: flex;
+  margin-left: 100px;
+  width: 1260px;
+}
+.container_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 1000px;
+}
+h1 {
+  width: 600px;
+  line-height: 130%;
+  height: 236px;
+  font-size: 90px;
+  color: #ffffff;
+  margin-top: 106px;
+}
+.p_text {
+  width: 450px;
+  height: 59px;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.button_2 {
+  width: 250px;
+  height: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  background: none;
+  margin-top: 94px;
+}
+.button_a {
+  padding-bottom: 18px;
+  padding-left: 53px;
+  padding-top: 19px;
+  padding-right: 53px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.container_3 {
+  height: 260px;
+  display: flex;
+  justify-content: center;
+}
+.container_4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.link_5 {
+  position: relative;
+  margin-bottom: 33px;
+}
+.group_10 {
+  position: absolute;
+  right: 13px;
+  top: 11px;
+  left: 14px;
+  width: 13px;
+  height: 18px;
+  bottom: 11px;
+}
+.container_5 {
+  margin-top: 64px;
+}
+.container_6 {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box {
+  background-image: url(../images/Турбазы-на-Байкале.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_2 {
+  font-weight: 500;
+
+  width: 154px;
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 83px;
+  margin-bottom: 16px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.title_2 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_2 {
+  background-image: url(../images/Экскурсии-и-туры.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_3 {
+  font-weight: 500;
+  width: 136px;
+  height: 19px;
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 101px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.title_3 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_3 {
+  background-image: url(../images/Охота-и-рыбалка.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_4 {
+  width: 128px;
+  font-weight: 500;
+  height: 19px;
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 101px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.title_4 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_4 {
+  background-image: url(../images/Экстрим-туры.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_5 {
+  width: 108px;
+  height: 19px;
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 129px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+}
+.container_7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+}
+.title_5 {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_5 {
+  background-image: url(../images/Теплоходы-яхты.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_6 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 107px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 130px;
+  height: 19px;
+}
+.title_6 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_6 {
+  background-image: url(../images/Красоты-Байкала.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_7 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 103px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 134px;
+  height: 19px;
+}
+.title_7 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_7 {
+  background-image: url(../images/Гостиницы-в-Улан-Удэ.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_8 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 67px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 170px;
+  height: 19px;
+}
+.title_8 {
+  margin-left: 32px;
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_8 {
+  background-image: url(../images/Транспорт.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_9 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 157px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 80px;
+  height: 19px;
+}
+.container_8 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.title_9 {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.box_9 {
+  background-image: url(../images/Деловой-туризм.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_10 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 157px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 125px;
+  height: 19px;
+}
+
+.title_10 {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 32px;
+}
+.box_10 {
+  background-image: url(../images/Круизы-по-Байкалу.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_11 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 157px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 146px;
+  height: 19px;
+}
+.title_11 {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 32px;
+}
+.box_11 {
+  background-image: url(../images/Зимние-туры.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_12 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 157px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 100px;
+  height: 19px;
+}
+.title_12 {
+  width: 258px;
+  height: 200px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 32px;
+}
+.box_12 {
+  background-image: url(../images/О-Байкале.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 152px;
+  border-radius: 6px 6px 0px 0px;
+}
+.p_text_13 {
+  margin-left: 19px;
+  margin-top: 13px;
+  margin-right: 157px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 500;
+  width: 112px;
+  height: 19px;
+}
+.container_9 {
+  margin-top: 64px;
+  background-color: #71cf2917;
+  height: 582px;
+}
+.container_10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text_14 h2 {
+  color: #000000;
+  margin-top: 44px;
+  width: 575px;
+  height: 39px;
+  font-size: 30px;
+  line-height: 130%;
+}
+.container_13 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.p_text_15 {
+  width: 252px;
+  height: 65px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 16px;
+}
+.p_text_16 {
+  width: 243px;
+  height: 65px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 16px;
+}
+.box_14 {
+  margin-left: 33px;
+}
+.p_text_17 {
+  width: 231px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 16px;
+}
+.box_15 {
+  margin-left: 45px;
+}
+.p_text_18 {
+  width: 252px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 16px;
+}
+.box_16 {
+  margin-left: 57px;
+}
+.container_14 {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+}
+.p_text_19 {
+  width: 256px;
+  height: 65px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 18px;
+}
+.p_text_20 {
+  width: 256px;
+  height: 63px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 18px;
+}
+.title_19 {
+  position: relative;
+}
+.box_18 {
+  margin-left: 29px;
+}
+.img_title_19 {
+  position: absolute;
+  top: -30;
+}
+.img2_title_19 {
+  margin-top: 25px;
+  margin-left: 22px;
+}
+.img3_title_19 {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+.p_text_21 {
+  width: 256px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 43px;
+}
+
+.box_19 {
+  margin-left: 33px;
+}
+.p_text_22 {
+  width: 255px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  margin-top: 18px;
+}
+.box_20 {
+  margin-left: 32px;
+}
+.container_15 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 74px;
+}
+h3 {
+  width: 403px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+.text_23 {
+  width: 1100px;
+}
+.title_21 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_21 {
+  background-image: url(../images/Зимний\ однодневный\ тур\ на\ Чивыркуйский\ залив\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_24 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_24 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-left: 17px;
+  margin-top: 16px;
+}
+.link_7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 256px;
+  height: 166px;
+}
+.p2_text_24 {
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_6 {
+  margin-top: 40px;
+}
+
+.title_22 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_22 {
+  background-image: url(../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_25 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_25 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-left: 17px;
+  margin-top: 16px;
+}
+.link_9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 256px;
+  height: 166px;
+}
+.p2_text_25 {
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_8 {
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.title_23 {
+  width: 544px;
+  height: 544px;
+  border-radius: 6px;
+}
+.box_23 {
+  background-image: url(../images/Экскурсия\ в\ Иволгинский\ дацан\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 544px;
+  height: 544px;
+  border-radius: 6px;
+}
+.text_26 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_26 {
+  width: 407px;
+  height: 53px;
+  font-size: 24px;
+  line-height: 130%;
+  margin-left: 33px;
+  margin-top: 27px;
+}
+.link_11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 256px;
+  height: 464px;
+}
+.p2_text_26 {
+  margin-left: 33px;
+  margin-bottom: 19px;
+  font-size: 16px;
+  line-height: 130%;
+}
+.link_10 {
+  margin-top: 40px;
+  margin-left: 32px;
+}
+.container_16 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+.container_17 {
+  width: 256px;
+}
+.link_12 {
+  margin-top: 32px;
+}
+.title_24 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_24 {
+  background-image: url(../images/Обзорная\ экскурсия\ по\ Улан-Удэ\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_27 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_27 {
+  margin-top: 16px;
+  margin-left: 17px;
+  width: 192px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.p2_text_27 {
+  width: 218px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 166px;
+}
+.link_14 {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.title_25 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_25 {
+  background-image: url(../images/Эко-отель\ «Байкальское\ шале»\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_28 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_28 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+.p2_text_28 {
+  width: 218px;
+  height: 21px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 19px;
+  margin-left: 24px;
+}
+.link_15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 166px;
+}
+.container_19 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+.title_26 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_26 {
+  background-image: url(../images/Летний\ однодневный\ тур\ в\ Чивыркуйский\ залив\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_29 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_29 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 17px;
+}
+.link_17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 166px;
+}
+.p2_text_29 {
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_18 {
+  margin-left: 32px;
+}
+.title_27 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_27 {
+  background-image: url(../images/Отель\ «Белая\ Карета»\,\ с\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_30 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_30 {
+  width: 197px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+.link_19 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 166px;
+}
+.p2_text_30 {
+  font-size: 16px;
+  line-height: 130%;
+  width: 218px;
+  height: 21px;
+  margin-bottom: 19px;
+  margin-left: 24px;
+}
+.link_20 {
+  margin-left: 32px;
+}
+.title_28 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_28 {
+  background-image: url(../images/Однодневная\ поездка\ на\ Байкал\ «Байкальская\ Гавань»\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_31 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_31 {
+  margin-top: 16px;
+  margin-left: 17px;
+  width: 210px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+}
+.link_21 {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.p2_text_31 {
+  width: 218px;
+  height: 21px;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_22 {
+  margin-left: 32px;
+}
+.title_29 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_29 {
+  background-image: url(../images/Парк-отель\ «Сагаан-Морин»\,\ с\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_32 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_32 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+.link_23 {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.p2_text_32 {
+  width: 218px;
+  height: 21px;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 19px;
+  margin-left: 24px;
+}
+.container_20 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+.title_30 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_30 {
+  background-image: url(../images/Летний\ однодневный\ тур\ на\ остров\ Ольхон\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_33 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_33 {
+  width: 218px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 17px;
+}
+.link_25 {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.p2_text_33 {
+  width: 218px;
+  height: 21px;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 19px;
+  margin-left: 17px;
+}
+.link_26 {
+  margin-left: 32px;
+}
+.title_31 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_31 {
+  background-image: url(../images/Зимний\ тур\ «Чивыркуйская\ сказка».png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_34 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_34 {
+  width: 214px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+.link_27 {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.p2_text_34 {
+  width: 218px;
+  height: 21px;
+  margin-bottom: 19px;
+  margin-left: 24px;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.link_28 {
+  margin-left: 32px;
+}
+.title_32 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_32 {
+  background-image: url(../images/Парк-отель\ «Байкальская\ Ривьера».png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_35 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_35 {
+  width: 214px;
+  height: 74px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 16px;
+  margin-left: 17px;
+}
+.link_29 {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.p2_text_35 {
+  width: 218px;
+  height: 21px;
+  margin-bottom: 19px;
+  margin-left: 17px;
+  font-size: 16px;
+  line-height: 130%;
+}
+.link_30 {
+  margin-left: 32px;
+}
+.title_33 {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.box_33 {
+  background-image: url(../images/Фотогалерея5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+.text_36 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  height: 256px;
+}
+.link_31 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 350px;
+}
+.p_text_36 {
+  width: 256px;
+  height: 65px;
+  font-size: 24px;
+  line-height: 130%;
+}
+.container_21 {
+  display: flex;
+  justify-content: center;
+}
+.link_32 {
+  margin-left: 20px;
+  width: 1116px;
+  margin-top: 80px;
+  color: #c4c4c4;
+  border: 1px solid #d9d9de;
+}
+.container_22 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.p_text_37 {
+  width: 222px;
+  height: 39px;
+  font-size: 30px;
+  line-height: 130%;
+  margin-left: 20px;
+}
+.container_23 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+.box_34 {
+  background-image: url(../images/изображение\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1120px;
+  height: 609px;
+}
+.container_24 {
+  display: flex;
+  justify-content: center;
+  margin-top: 76px;
+  margin-left: 20px;
+}
+.container_25 {
+  display: flex;
+
+  width: 448px;
+}
+h4 {
+  width: 228px;
+  height: 49px;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 21px;
+}
+.p_text_38 {
+  width: 448px;
+  height: 234px;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+}
+.text_39 {
+  margin-top: 55px;
+}
+.a_text_39 {
+  width: 138px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #76767a;
+}
+.video {
+  background-image: url(../images/Rectangle\ 45.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 640px;
+  height: 380px;
+  margin-left: 32px;
+}
+iframe {
+  width: 640px;
+  height: 380px;
+}
+.container_27 {
+  background-color: #3fa9f511;
+  height: 766px;
+  margin-top: 79px;
+}
+.text_40 {
+  display: flex;
+}
+h5 {
+  margin-top: 44px;
+  width: 193px;
+  height: 39px;
+  font-size: 30px;
+  line-height: 130%;
+}
+.a_link_34 {
+  margin-top: 58px;
+  width: 134px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0050b2;
+}
+.title_34 {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 75px;
+}
+.link_34 {
+  display: flex;
+}
+.link_35 {
+  margin-top: 46px;
+  margin-left: 55px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #0061d9;
+  border-radius: 22px;
+}
+.link_36 {
+  padding-top: 14px;
+  padding-left: 16px;
+}
+.link_37 {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #0061d9;
+  border-radius: 22px;
+  margin-top: 46px;
+  margin-left: 16px;
+  margin-right: 60px;
+}
+.link_38 {
+  padding-top: 14px;
+  padding-left: 17px;
+}
+.box_35 {
+  display: flex;
+}
+.box_36 {
+  background-image: url(../images/Фотогалерея-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+  margin-right: 32px;
+}
+.box_37 {
+  background-image: url(../images/Фотогалерея2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+  margin-right: 32px;
+}
+.box_38 {
+  background-image: url(../images/Фотогалерея3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+}
+.container_29 {
+  margin-left: 20px;
+}
+.container_30 {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+.container_31 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.box_39 {
+  background-image: url(../images/Фотогалерея6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+  margin-right: 32px;
+}
+.box_40 {
+  background-image: url(../images/Фотогалерея4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+  margin-right: 32px;
+}
+.box_41 {
+  background-image: url(../images/Фотогалерея5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 352px;
+  height: 256px;
+}
+.container_32 {
+  margin-top: 80px;
+}
+h6 {
+  width: 1126px;
+  margin-left: 120px;
+  height: 57px;
+  font-size: 55px;
+  line-height: 130%;
+}
+.text_41 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container_34 {
+  position: relative;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box_42 {
+  background-image: url(../images/Untitled-1\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 256px;
+  height: 256px;
+}
+.box_43 {
+  position: absolute;
+  width: 256px;
+  height: 318px;
+  top: 150px;
+  left: 490px;
+}
+.title_36 {
+  display: flex;
+}
+.p_text_42 {
+  width: 736px;
+  height: 559px;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+}
+.title_35 {
+  margin-right: 120px;
+  margin-left: 20px;
+}
+.link_39 {
+  width: 1116px;
+  margin-top: 54px;
+  border: 1px solid #d9d9de;
+  color: #c4c4c4;
+}
+.container_36 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.container_37 {
+  display: flex;
+  justify-content: center;
+  margin-top: 41px;
+  margin-left: 30px;
+}
+.p_box_44 {
+  width: 33px;
+  height: 75px;
+  font-size: 58px;
+  line-height: 130%;
+  font-weight: 500;
+  color: #64bd22;
+}
+.p2_box_44 {
+  width: 131px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+  color: #000000;
+}
+.box_45 {
+  margin-left: 57px;
+}
+.p_box_45 {
+  width: 132px;
+  height: 75px;
+  font-size: 58px;
+  line-height: 130%;
+  font-weight: 500;
+  color: #64bd22;
+}
+.p2_box_45 {
+  width: 107px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.box_46 {
+  margin-left: 46px;
+}
+.p_box_46 {
+  width: 132px;
+  height: 75px;
+  font-size: 58px;
+  line-height: 130%;
+  color: #64bd22;
+  font-weight: 500;
+}
+.p2_box_46 {
+  width: 104px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.box_47 {
+  margin-left: 63px;
+}
+.p_box_47 {
+  width: 220px;
+  height: 75px;
+  font-size: 58px;
+  line-height: 130%;
+  font-weight: 500;
+  color: #64bd22;
+}
+.p2_box_47 {
+  width: 314px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+.box_48 {
+  margin-left: 47px;
+}
+.p_box_48 {
+  width: 198px;
+  height: 75px;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 130%;
+  color: #64bd22;
+}
+.p2_box_48 {
+  width: 197px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+.container_38 {
+  margin-top: 120px;
+}
+.text_43 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.p_text_43 {
+  width: 492px;
+  height: 39px;
+  font-size: 30px;
+  line-height: 130%;
+  font-weight: 580;
+  margin-left: 20px;
+}
+.container_39 {
+  margin-top: 51px;
+}
+.name {
+  width: 256px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+.box_49 {
+  display: flex;
+  justify-content: center;
+}
+.tell {
+  width: 256px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-left: 32px;
+}
+.e-mail {
+  width: 257px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-left: 31px;
+}
+.box_50 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.input_50 {
+  width: 256px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+.number {
+  width: 256px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-left: 32px;
+}
+.number_2 {
+  width: 257px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-left: 31px;
+}
+.box_51 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.box_52 {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  width: 153px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+.date_2 {
+  width: 153px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-top: 24px;
+}
+.coment {
+  width: 649px;
+  height: 112px;
+  border: 1px solid #d9d9de;
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 80px;
+  margin-left: 30px;
+}
+.button_3 {
+  width: 297px;
+  height: 60px;
+  background: #0061d9;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+.a_button_3 {
+  width: 232px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 19px;
+  padding-left: 65px;
+}
+.box_53 {
+  display: flex;
+  justify-content: center;
+}
+.checkbox {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #76767a;
+  border-radius: 2px;
+  margin-top: 51px;
+  margin-left: 100px;
+}
+.a_box_54 {
+  width: 353px;
+  height: 23px;
+  font-size: 16px;
+  line-height: 130%;
+  color: #76767a;
+  margin-left: 10px;
+  margin-top: 52px;
+}
+.box_54 {
+  display: flex;
+}
+footer {
+  height: 331px;
+  background: #202020;
+  margin-top: 76px;
+}
+.container_40 {
+  display: flex;
+  justify-content: center;
+}
+
+.box_55 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 39px;
+}
+.p_text_44 {
+  width: 128px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.p2_text_44 {
+  width: 172px;
+  height: 97px;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 17px;
+}
+
+.box_56 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 39px;
+  margin-left: 76px;
+}
+.p_text_45 {
+  width: 95px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.p2_text_45 {
+  width: 172px;
+  height: 97px;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 17px;
+}
+.box_57 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 39px;
+  margin-left: 76px;
+}
+.p_text_46 {
+  width: 141px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.p2_text_46 {
+  width: 178px;
+  height: 97px;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 17px;
+}
+.box_58 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 39px;
+  margin-left: 76px;
+}
+.p_text_47 {
+  width: 89px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.p2_text_47 {
+  width: 194px;
+  height: 113px;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 17px;
+}
+.box_59 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 39px;
+  margin-left: 76px;
+}
+.p_text_48 {
+  width: 48px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.p2_text_48 {
+  width: 96px;
+  height: 113px;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 17px;
+}
+.container_41 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 18px;
+}
+.link_40 {
+  opacity: 0.2;
+  border: 1px solid #ffffff;
+  margin-left: 85px;
+  width: 1202px;
+}
+.container_42 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+.box_60 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.p_text_49 {
+  width: 237px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+}
+.p2_text_49 {
+  width: 196px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 130%;
+  opacity: 0.8;
+  margin-top: 7px;
+  margin-right: 30px;
+}
+.box_61 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 64px;
+}
+.p_text_50 {
+  width: 200px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+}
+.p2_text_50 {
+  width: 200px;
+  height: 39px;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-top: 7px;
+}
+.box_62 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 64px;
+}
+.p_text_51 {
+  width: 219px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  margin-right: 20px;
+}
+.p2_text_51 {
+  width: 219px;
+  height: 39px;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-top: 7px;
+}
+.box_62 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.a_text_52 {
+  width: 212px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.link_41 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  opacity: 0.5;
+}
+.P_link_42 {
+  width: 43px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 130%;
+}
+.img_link_41 {
+  width: 52.62px;
+  height: 22px;
+  margin-left: 14px;
+}
